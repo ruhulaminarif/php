@@ -1,15 +1,20 @@
-<?php
-define('PI',3.141);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<?php
+	define("PI", 3.1416);
+	echo PI;
 
-echo PI;
-?>
+	define('HOST', 'localhost');
+	define('USER', 'root');
+	define('PASS', 'abcds');
+	echo HOST;
 
-<?php
-define("value","I am ruhulamin arif");
-function myname(){
-	return value;
-}
-echo myname();
-
-
-?>
+	?>
+</body>
+</html>
