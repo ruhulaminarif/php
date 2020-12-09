@@ -16,5 +16,15 @@
 	echo HOST;
 
 	?>
+	
+	<?php
+          define("value","I am ruhulamin arif");
+          function myname(){
+	      return value;
+         }
+         echo myname();
+
+
+?>
 </body>
 </html>
